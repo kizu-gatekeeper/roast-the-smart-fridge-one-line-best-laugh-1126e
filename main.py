@@ -7,7 +7,7 @@ MAKEFUN_OUTPUT_DIR.
 
 import os
 
-ENTRY = "My smart fridge judges my 2am snacks, orders kale I never asked for, and still can\u2019t find the butter sitting right in front of it."
+ENTRY = "My smart fridge judges my 2am snacks, orders kale I never asked for, and still can\u2019t find the butter sitting right in front of its own camera."
 
 def main():
     out_dir = os.environ.get("MAKEFUN_OUTPUT_DIR", "/tmp/out")
